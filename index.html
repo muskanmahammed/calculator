@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Calculator.png" type="image/x-icon">
+</head>
+<body style="background-color: black;">
+    
+    <center><div class="design">
+    <center><h1 class="title" style="color:rgb(204, 70, 70) ;">Calculator</h1></center>
+   
+    <input type="submit" value="↻" onclick="window.location.reload()" style="margin-left:-70%;margin-top:5%;width:15%;border:2px solid transparent">
+    <div style="margin-top: -9%;">
+    <div class="align">
+    <input type="number" placeholder="Enter the Number" id="a" style="border: 2px solid black;margin-top:-25px;"><br><br>
+    <!-- <input type="number" placeholder="Enter the Second Number" id="n2" style="border:2px solid black"> -->
+    </div>
+    <br><br>
+    <center><div id="result" style="margin-top: -5%;">Result</div></center><br><br>
+    <center><div id="wait" style="margin-top: -5%;">Wait</div></center><br><br>
+    <div class="value" style="margin-left: 8%;margin-top: 4%;">
+    <input type="submit" value="+" id="add"  style="height:20%;width: 35%;border:2px solid black">
+    <input type="submit" value="-" id="sub" style="height:20%;width: 35%; border:2px solid black"><br><br>
+    <input type="submit" value="*" id="mul" style="height:20%;width: 35%; border:2px solid black">
+    <input type="submit" value="/" id="div" style="height:20%;width: 35%; border:2px solid black">
+    </div>
+    <center><input type="submit" value="=" onclick="equal()" style="border:2px solid black;margin-top:5%;width:20%"></center>
+</div>   
+</div></center>
+
+    <script src="design.js"></script>
+</body>
+</html>
